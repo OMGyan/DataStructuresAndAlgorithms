@@ -1,5 +1,10 @@
 package com.yx.datastructuresandalgorithms;
 
+import android.util.Log;
+
+import java.util.ArrayList;
+import java.util.Stack;
+
 /**
  * Author by YX, Date on 2019/9/11.
  * 单向链表
@@ -8,7 +13,7 @@ public class SingleLinkedList {
 
     private int size;//链表节点的个数
 
-    private Node head;//头节点
+     Node head;//头节点
 
     public SingleLinkedList() {
 
@@ -122,4 +127,6 @@ public class SingleLinkedList {
             System.out.println("[]");
         }
     }
+
+
 }
